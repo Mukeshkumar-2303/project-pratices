@@ -57,4 +57,5 @@ function revealCards() {
 
   });
 }
-
+window.addEventListener("scroll", revealCards);
+window.addEventListener("load", revealCards);
